@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'dummy-pcb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5EAF06DD0700451D9D5C5C5B4D9D8D1D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FAF34BBAEE304457A850881D86CEFFCA }}
