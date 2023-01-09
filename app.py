@@ -61,7 +61,9 @@ def return_file():
 
 @app.route('/add')
 def func():
-    print(a+b)
+    a = 5
+    b = 5
+    print("adding two variable:",a+b)
 
 
 if __name__ == "__main__":
