@@ -51,9 +51,9 @@ def opencam():
 @app.route('/return-files', methods=['GET'])
 def return_file():
     obj = request.args.get('obj')
-    print("obj-------------------------",obj)
+    # print("obj-------------------------",obj)
     loc = os.path.join("static", obj)
-    print("loc==============",loc)
+    # print("loc==============",loc)
     try:
         return send_file(os.path.join("static", obj), attachment_filename=obj)
     except Exception as e:
