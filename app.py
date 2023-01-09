@@ -59,6 +59,10 @@ def return_file():
     except Exception as e:
         return str(e)
 
+@app.route('/add')
+def func():
+    print(a+b)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
